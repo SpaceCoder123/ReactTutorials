@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import FormHandling from './Components/FormHandling';
+// import Props_Destructuring from './Components/Props_Destructuring'
+// import EventBind from './Components/EventBind';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1>This is react tutorials</h1>
+    {/* <Props_Destructuring value = "hello" name= "varun batra"></Props_Destructuring>
+    <EventBind></EventBind> */}
+    <FormHandling></FormHandling>
+    </>
+  )
 }
 
 export default App;
